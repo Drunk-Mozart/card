@@ -6,7 +6,7 @@
 # age = input("pls input age of %s:" % name)
 # card_list = temp_list.append({"name": name, "gender": gender, "job": job, "age": age})
 # print(card_list)
-    # return card_list
+# return card_list
 
 
 # test for search name in card list
@@ -19,3 +19,21 @@ for card in card_list:
         break
     else:
         print("not in the list")
+
+a = 2
+print(id(a))
+b = a
+print(id(b))
+
+
+def id_num(num):
+    result = "hello"
+    print("the address of num is %d" % id(num))
+    print("the address of num is %d" % id(result))
+    return result
+
+
+id_num(a)
+
+c = id_num(b)
+print(id(c))
