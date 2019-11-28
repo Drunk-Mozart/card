@@ -53,6 +53,12 @@ DL_01 ~ DL_20
 * 驼峰命名法
 * 初始化（init方法）
 * 返回字符串（str方法)
+* 继承
+* 多态
+
+![blockchain](https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/)
+
+[简书](http://jianshu.com)
 
 ## 对象
 
