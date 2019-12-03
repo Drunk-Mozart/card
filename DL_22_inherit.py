@@ -36,3 +36,26 @@ class BigDog(Dogs):
 xiaobing = BigDog()
 xiaobing.eat()
 xiaobing.buk()
+
+# 多继承，一个子类继承多个父类
+class A:
+    def __init__(self):
+        print("You are beautiful!")
+
+    def beautiful(self):
+        print("You are beautiful!")
+
+class B:
+    def __init__(self):
+        print("You are young")
+
+    def young(self):
+        print("You are young")
+
+class C(A, B):
+    pass
+
+arthur = C() # 同样有init方法，但只会调用位置在先的，从先至后寻找，先找到的先调用，一直找不到就报错
+arthur.beautiful()
+arthur.young()
+
